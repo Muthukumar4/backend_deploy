@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 
-@CrossOrigin(origins = "https://course-registration-portal.netlify.app/")
+@CrossOrigin(origins = "https://your-netlify-url.netlify.app")
 public class coursecontroler {
 
     @Autowired
